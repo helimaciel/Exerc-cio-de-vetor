@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         //inicialização do vetor
-        int vetor[] = new int[5];
+        int vetor[] = new int[10];
 //utilizando  comando "for" paravarredura do vetor que sera digitado pelo usuário    
         for (int i = 0; i < vetor.length; i++) {
             vetor[i] = input.nextInt();
